@@ -10,6 +10,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 3rem;
 }
 
 .bg-orange{
@@ -63,4 +64,80 @@
 
 .icon-nav{
     margin-left: .5rem;
+}
+
+.container-row{
+    width: 100%;
+}
+
+main{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.container-content-main{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    
+}
+
+.card{
+    width: calc((100% / 3) - 2rem);
+}
+
+.container-img{
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
+
+.img-1{
+    height: 400px;
+    width: 100%;
+}
+
+.container-heart{
+    height: 30px;
+    padding: 1rem;
+    position: absolute;
+    top: .5rem;
+    right: 0;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    line-height: 1rem;
+}
+
+.heart{
+    height: 15px;
+    width: 15px;
+    
+}
+
+.container-card-text{
+    width: 100%;
+}
+
+h5{
+    text-transform: uppercase;
+}
+
+h6{
+    display: inline;
+}
+
+.card-span{
+    width: 50%;
+}
+
+.container-img:hover .img-1{
+    background-image: url(../img/1b.webp);
+    background-size: cover;
+    height: 400px;
+    width: 100%;
 }

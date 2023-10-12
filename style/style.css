@@ -202,6 +202,10 @@ main{
     width: 100%;
 }
 
+.container-heart:hover .heart{
+    color: red;
+}
+
 .img-6{
     background-image: url(../img/6.webp);
     background-size: cover;
@@ -243,7 +247,7 @@ main{
     
 }
 
-.container-sale-30{
+.container-sale{
     background-color: red;
     width: 20%;
     position: absolute;
@@ -255,7 +259,7 @@ main{
     line-height: 1rem;
 }
 
-.sale-30{
+.sale{
     background-color: red;
     height: 15px;
     font-size: 13px;
